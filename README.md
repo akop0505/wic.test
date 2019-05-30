@@ -17,7 +17,7 @@ MySql >= 5.7
 <h4>1. Clone the project</h4>
 
 ```bash
-git clone repository_url
+git clone https://github.com/akop0505/wic.test.git
 ```
 
 <h4>2. Create new VirtualHost to root folder of the project</h4>
