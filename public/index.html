@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<title>Places</title>
+
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container" style="margin-top:30px">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label for="countries">Select countries:</label>
+                    <select class="form-control" id="countries">
+                        <option value="US">United States</option>
+                        <option value="DE">Germany</option>
+                        <option value="CH">Switzerland</option>
+                        <option value="AD">Andorra</option>
+                        <option value="AR">Argentina</option>
+                        <option value="AT">Austria</option>
+                        <option value="BE">Belgium</option>
+                        <option value="CA">Canada</option>
+                        <option value="ES">Spain</option>
+                        <option value="FR">France</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label for="zipcode">Zip code:</label>
+                    <input type="text" class="form-control" id="zipcode" value="">
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <button type="button" class="btn btn-primary float-right" id="search">Search</button>
+            </div>
+        </div>
+        <div class="row" id="result-row">
+            <div class="col-sm-12 result" id="result">
+                <div class="text-center">
+                    <b class="key"></b>
+                    <span class="value" style="color: darkslategray"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
