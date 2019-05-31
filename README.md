@@ -39,6 +39,7 @@ git clone https://github.com/akop0505/wic.test.git
 
 ```
 <h4>3. Create new data base and import the dump</h4>
+
 ```bash
 root_folder/script.sql
 ```
