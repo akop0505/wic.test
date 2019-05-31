@@ -46,7 +46,7 @@ root_folder/script.sql
 <h4>4. Set DB configs in db.php</h4>
 
 ```bash
-root_folder/config/ddb.php
+root_folder/config/db.php
 ```
 
 <h4>5. Open in browser</h4>
