@@ -1,5 +1,5 @@
 
-###Places
+<h1>Places</h1>
 
 ### Instruction to install the project
 
